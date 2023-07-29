@@ -8,15 +8,15 @@ class Config:
     API_HASH = os.environ.get('API_HASH')
     DATABASE_URL = os.environ.get('DATABASE_URL')
   else:
-    BOT_TOKEN = '' # Get it from https://t.me/BotFather
-    APP_ID = '' # Get it from my.telegram.org/apps
-    API_HASH = '' # Get it from my.telegram.org/apps
-    DATABASE_URL = '' # SQL Database URL / Heroku Postgres URL
+    BOT_TOKEN = '1884771307:AAGO8gJRBg9Z1nTPIrLClMdGhM_4y4yvKoU' # Get it from https://t.me/BotFather
+    APP_ID = '5310709' # Get it from my.telegram.org/apps
+    API_HASH = '63a546bdaf18e2cbba99f87b4274fa05' # Get it from my.telegram.org/apps
+    DATABASE_URL = 'postgres://klsxdgvz:mZBFLWoFzDfNgTrEg76LgGubZWaK6wzV@batyr.db.elephantsql.com/klsxdgvz' # SQL Database URL / Heroku Postgres URL
 
 
 class Messages:
 
-    START_MSG = "**Hi there {}.**\n__I'm Google Drive Uploader Bot.You can use me to upload any file / video to Google Drive from direct link or Telegram Files.__\n__You can know more from /help.__"
+    START_MSG = "**Hi there {}.**\n__I'm Google Drive Uploader Bot.You can use me to upload any file / video to Google Drive from direct link or Telegram Files.__\n__You can know more from /help.__\n MADE BY >> @Nafiisfuad1"
 
     HELP_MSG = [
         ".",
